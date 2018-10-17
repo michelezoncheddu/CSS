@@ -2,7 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     min-width: 900px;/*Larghezza minima della pagina web*/
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -136,7 +136,7 @@ header>nav ul ul>li {
  */
 header>nav ul>li:hover>ul ul {
     right: 100%;
-    top:0px;
+    top: 0px;
 }
 
 /*
@@ -220,6 +220,7 @@ div#page>aside {
  */
 div#page>aside ul>li {
     font-size: 12px;
+    padding-left: 10px;
 }
 
 /*
@@ -228,7 +229,7 @@ div#page>aside ul>li {
 div#page>aside ul>li.title {
     font-size: 11px;
     font-weight: bold;
-    padding: 20px 10px 5px 10px;
+    padding: 20px 10px 5px 20px;
     text-transform: uppercase;
 }
 
@@ -289,16 +290,20 @@ div#page>main>table {
 }
 
 div#page>main>table th, tr, td {
-    padding: 5px;
+    padding: 9px 12px;
 }
 
 div#page>main>table th {
-    background-color: #990100;
+    background-color: #B90504;
     color: #fff;
 }
 
 div#page>main>table tr:nth-child(odd){
   background-color: #E8E8E8;
+}
+
+div#page>main>table tr:nth-child(even){
+  background-color: #F6F6F6;
 }
 
 /******FINE BODY******/
