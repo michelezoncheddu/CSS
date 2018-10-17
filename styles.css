@@ -1,0 +1,298 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    min-width: 900px;/*Larghezza minima della pagina web*/
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/******INIZIO HEADER******/
+
+/*
+ * Stile contenitore superiore che include il logo dell'azienda ed il menu dei gruppi (header)
+ */
+body>header {
+    font-size: 0px;
+    height: 70px;/*Altezza contenitore superiore (Dovrà contenere: NomeAzienda e Menu Gruppi)*/
+    background: #f1f1f1;/*Colore sfondo*/
+}
+
+body>header>* {
+    display: inline-block;
+    height: inherit;/*Altezza ereditata dal tag padre (header)*/
+    line-height: 70px;/*Centra il testo verticalmente*/
+    font-size: 12px;
+    vertical-align: top;
+    padding: 0px 10px;
+}
+
+/*
+ * Stile contenitore logo
+ */
+header>#logo {
+    background: #b90504;/*Colore sfondo contenitore logo*/
+    width: 20%;
+    min-width: 250px;
+    color: #fff;/*Colore testo: Nome Azienda*/
+    font-family: 'Carter One', cursive;/*Famiglia del font -Importato da GoogleFont-*/
+    font-size: 25px;/*Dimensione del font*/
+    text-align: center;/*Centra il testo orizzontalmente*/
+    text-shadow: 1px 1px 1px #000;/*Testo ombreggiato*/
+    padding: 0px;/*Annulla i margini interni*/
+}
+
+/*
+ * Stile contenitore lista collegamenti
+ */
+header ul, div#page>aside ul {
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+/*
+ * Stile elemento nella lista collegamenti
+ */
+header ul>li {
+    display: inline-block;
+}
+
+/*
+ * Stile collegamento(link) nel menu delle icone
+ */
+header>.icoMenu>ul>li>a:link, header>.icoMenu>ul>li>a:visited {
+    display: block;
+    color: #9d9d9d;
+    font-size: 25px;
+    padding: 0px 10px;
+    text-decoration: none;/*Toglie qualsiasi decorazione al collegamento (default sottolineato)*/
+    transition: color 500ms; /*La proprietà color cambia in 500ms**/
+}
+
+/*
+ * Stile collegamento(link) nel menu delle icone quando l'utente si posiziona con il mouse sopra
+ */
+header>.icoMenu>ul>li>a:hover {
+    color: #b90504;
+}
+
+/*
+ * Stile menu dei gruppi
+ */
+header>nav {
+    float: right;
+}
+
+header>nav ul>li {
+    position: relative;
+}
+
+/*
+ * Stile collegamenti nel menu dei gruppi
+ */
+header>nav a:link, header>nav a:visited {
+    display: block;
+    color: #9d9d9d;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header>nav>ul>li:hover>a:link, header>nav>ul>li:hover>a:visited, header>nav>ul>li>a:hover {
+    background: #b90504;
+    color: #fff;
+}
+
+/*
+ * Stile sub-menu: quando il cursore non è posizionato sull'elemento padre il menu è nascosto
+ */
+header>nav ul>li>ul {
+    display: none;
+}
+
+/*
+ * Stile sub-menu: quando il cursore è posizionato sull'elemento padre il menu viene mostrato
+ */
+header>nav ul>li:hover>ul {
+    position: absolute;
+    display: block;
+    right: 0px;
+}
+
+/*
+ * Stile elemento sub-menu
+ */
+header>nav ul ul>li {
+    display: block;
+    line-height: normal;
+    min-width: 200px;/*Larghezza minima del sub-menu*/
+}
+
+/*
+ * Stile sub-menu di grado >1 (Cursore posizionato sull'elemento padre)
+ */
+header>nav ul>li:hover>ul ul {
+    right: 100%;
+    top:0px;
+}
+
+/*
+ * Stile collegamenti nei sub-menu
+ */
+header>nav ul ul>li>a:link, header>nav ul ul>li>a:visited {
+    background: #b90504;
+    color: #fff;
+    font-size: 10px;
+    padding: 15px 10px;
+    white-space: nowrap;
+}
+
+header>nav ul ul>li:hover>a:link {
+    background: #990100;
+}
+
+/*
+ * Stile icona arrow nei sub-menu
+ */
+header>nav ul ul>li i {
+    color: #ffffff6e;
+}
+
+/******FINE HEADER******/
+
+
+/******INIZIO BODY******/
+
+/*
+ * Stile contenitore padre che include il tag aside e main
+ */
+div#page {
+    display: flex;
+    align-items: stretch;
+    font-size: 0px;
+    text-align: center;
+}
+
+div#page>* {
+    display: inline-block;/*I figli di '#page' vengono affiancati uno accanto all'altro*/
+    font-size: 12px;
+    text-align: left;
+    min-height: 500px;/*Definisce un'altezza minima in futuro andrà tolta*/
+}
+
+/*
+ * Stile contenitore laterale di colore rosso
+ */
+div#page>aside {
+    background: #990100;
+    color: #fff;
+    width: 20%;
+    min-width: 250px;
+    transition: margin-left 500ms;
+}
+
+/*
+ * Stile contenitore con le informazioni sull'utente nel contenitore laterale
+ */
+#userInfo {
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#userInfo>a:link, #userInfo>a:visited {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#userInfo>span {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+/*
+ * Stile elemento del menu utente nel contenitore laterale
+ */
+div#page>aside ul>li {
+    font-size: 12px;
+}
+
+/*
+ * Stile elemento titolo nel menu dell'utente
+ */
+div#page>aside ul>li.title {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 20px 10px 5px 10px;
+    text-transform: uppercase;
+}
+
+/*
+ * Stile icona nel menu utente
+ */
+div#page>aside ul>li i {
+    font-size: 16px;
+    padding-right: 10px;
+    vertical-align: text-bottom;
+}
+
+/*
+ * Stile collegamento nel menu utente
+ */
+div#page>aside ul>li>a:link, div#page>aside ul>li>a:visited {
+    display: block;
+    color: #ffffff9e;
+    padding: 10px;
+    text-decoration: none;
+    transition: color 500ms;
+}
+
+div#page>aside ul>li>a:hover {
+    color: #fff;
+}
+
+/*
+ * Stile testo del collegamento nel menu utente
+ */
+div#page>aside ul>li>a>span {
+    margin-left: 0px;
+    transition: margin 500ms;
+}
+
+div#page>aside ul>li>a:hover>span {
+    margin-left: 10px;
+}
+
+/*
+ * Stile contenitore principale della pagina web
+ */
+div#page>main {
+    width: calc( 75% - 20px );
+    flex-grow: 1;
+    margin: auto;
+    padding: 20px 10px; /*Bordo interno*/
+}
+
+/******FINE BODY******/
+
+
+/******INIZIO FOOTER******/
+
+/*
+ * Stile contenitore inferiore (footer)
+ */
+body>footer {
+    background: #f1f1f1;
+    color: #777;
+    font-size: 11px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+/******FINE FOOTER******/
