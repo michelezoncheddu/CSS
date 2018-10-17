@@ -22,3 +22,5 @@ Diventa:<br />
 
 Nome dei parametri:<br />
 >`param(Nome)`
+
+Remote css file: https://raw.githack.com/michelezoncheddu/CSS/editTable/styles.css
