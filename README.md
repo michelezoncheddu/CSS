@@ -12,9 +12,9 @@ Sintassi delle procedure:<br />
 dove (NomeTag) è il nome del tag realizzato da quella procedura.
 
 Esempio:
-  >`<"table">
+  >`<table>
   ...
-  </"table">`<br />
+  </ table>`<br />
 Diventa:<br />
   >`gui.tableOpen
   ...
