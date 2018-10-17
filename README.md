@@ -24,3 +24,5 @@ Nome dei parametri:<br />
 >`param(Nome)`
 
 Remote css file: https://raw.githack.com/michelezoncheddu/CSS/editTable/styles.css
+
+Color palette: https://www.colourlovers.com/palette/623761/Walking_Away
