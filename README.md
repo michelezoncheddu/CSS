@@ -23,6 +23,8 @@ Diventa:<br />
 Nome dei parametri:<br />
 >`param(Nome)`
 
-Color palette: https://www.colourlovers.com/palette/623761/Walking_Away
+Palette colori: https://www.colourlovers.com/palette/623761/Walking_Away
 
-Remote css file: https://raw.githack.com/michelezoncheddu/CSS/master/styles.css
+File css remoto: https://raw.githack.com/michelezoncheddu/CSS/master/styles.css
+
+File js remoto: https://raw.githack.com/michelezoncheddu/CSS/master/functions.js
