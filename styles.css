@@ -283,6 +283,22 @@ div#page>main {
  */
 div#page>main>table {
     width: 100%;
+    border: 10px;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+div#page>main>table th, tr, td {
+    padding: 5px;
+}
+
+div#page>main>table th {
+    background-color: #990100;
+    color: #fff;
+}
+
+div#page>main>table tr:nth-child(odd){
+  background-color: #E8E8E8;
 }
 
 /******FINE BODY******/
