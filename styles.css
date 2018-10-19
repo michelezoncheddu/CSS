@@ -324,3 +324,125 @@ body>footer {
 }
 
 /******FINE FOOTER******/
+
+/******INIZIO MESSAGGI******/
+/*
+ * Stile contenitore messaggio
+ */
+.message-box {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    margin: 10px 0px;
+    display: table;
+}
+
+.message-box div {
+    display: table-cell;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*
+ * Stile testo messaggio
+ */
+.message-box>.message-text {
+    font-style: italic;
+    border-radius: 0px 3px 3px 0px;
+}
+
+/*
+ * Stile bottone per chiudere il contenitore del messaggio
+ */
+.message-box button {
+    background: #00000050;
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+    margin: 3px;
+    padding: 0px;
+    border: none;
+    border-radius: 3px;
+    line-height: 25px;
+    text-align: center;
+    transition: opacity 500ms;
+    cursor: pointer;
+}
+
+.message-box button:focus {
+    outline: none;
+}
+
+.message-box:hover button {
+    opacity: 1;
+}
+
+/*
+ * Stile icona messaggio
+ */
+.message-box>.message-icon {
+    position: relative;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 3px 0px 0px 3px;
+    box-shadow: 1px 0px 0px #0000002e;
+}
+
+.message-box>.message-icon:after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    margin-top: -8px;
+    transform: rotate(45deg);
+    box-shadow: 1px -1px 0px #0000002e;
+}
+
+
+/*
+ * Stile colori dei contenitori messaggio
+ */
+/*Messaggio di errore*/
+.error>.message-icon, .error>.message-icon:after {
+    background-color: #E53935;
+}
+
+.error>.message-text {
+    background-color: #B71C1C;
+}
+
+/*Messaggio di successo*/
+.success>.message-icon, .success>.message-icon:after {
+    background-color: #00b33f;
+}
+
+.success>.message-text {
+    background-color: #06862f;
+}
+
+/*Messaggio di informazione*/
+.info>.message-icon, .info>.message-icon:after {
+    background-color: #00aafb;
+}
+
+.info>.message-text {
+    background-color: #0080bc;
+}
+
+/*Messaggio di warnign*/
+.warning>.message-icon, .warning>.message-icon:after {
+    background-color: #FDD835;
+}
+
+.warning>.message-text {
+    background-color: #F9A825;
+}
+/******FINE MESSAGGI******/
