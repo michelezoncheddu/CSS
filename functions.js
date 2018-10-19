@@ -28,3 +28,11 @@ function updateMarginMenu() {
     //Aggiorna il valore di margin-left
     userMenu.setAttribute("style", "transition: unset; margin-left: -"+userMenu.offsetWidth+"px");
 }
+
+/*
+ * Funzione per eliminare il contenitore di un messaggio
+ */
+function deleteMessage(btn) {
+    btn.parentNode.parentNode.setAttribute("style","transition: opacity 500ms; opacity: 0");
+    setInterval(function(){ btn.parentNode.parentNode.remove(); }, 500);
+}
