@@ -188,7 +188,7 @@ div#page>* {
  * Stile contenitore laterale di colore rosso
  */
 div#page>aside {
-    background: #990100;
+    background-image: linear-gradient(#B90504, #990100)
     color: #fff;
     width: 20%;
     min-width: 250px;
@@ -311,7 +311,7 @@ div#page>main>table tr:nth-child(even){
  * Stile dei bottoni
  */
 div#page>main>button {
-	background-image: linear-gradient( #B90504, #990100	);
+	background-image: linear-gradient( #B90504, #990100 );
 	color: white;
 	border: 1px solid #B90504;
 	border-radius: 5px;
@@ -436,7 +436,7 @@ div#page>main>form>fieldset:active {
  * Stile dei bottoni dentro la form
  */
 div#page>main>form>button {
-	background-image: linear-gradient( #B90504, #990100	);
+	background-image: linear-gradient( #B90504, #990100 );
 	color: white;
 	border: 1px solid #B90504;
 	border-radius: 5px;
