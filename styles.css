@@ -307,6 +307,151 @@ div#page>main>table tr:nth-child(even){
   background-color: #F6F6F6;
 }
 
+/*
+ * Stile dei bottoni
+ */
+div#page>main>button {
+	background-image: linear-gradient( #B90504, #990100	);
+	color: white;
+	border: 1px solid #B90504;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+div#page>main>button:hover {
+	border: 1px solid red;
+}
+
+div#page>main>button:active {
+	background-image: linear-gradient( #990100, #B90504 );	
+	border: 1px solid red;
+}
+
+/*
+ * Stile della form 
+ */
+div#page>main>form {
+	border: 1px solid red;
+	width: 60%;
+	padding-left: 20px;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+/*
+ * Stile dei riquadri di input 
+ */
+div#page>main>form>input {
+	width: 10%;
+	margin: 8px 0;
+	border: 1px solid #b0b0b0;
+	border-radius: 3px;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+div#page>main>form>input:hover {
+	border: 1px solid #555555;
+}
+
+div#page>main>form>input:focus{
+	border: 1px solid #555555;
+}
+
+
+/*
+ * Stile dei menù di selezione 
+ */
+div#page>main>form>select{
+	border: 1px solid #b0b0b0;
+	border-radius: 3px;
+}
+
+div#page>main>form>select:hover{
+	border: 1px solid #555555;
+}
+
+div#page>main>form>select:focus{
+	border: 1px solid #555555;
+}
+
+/*
+ * Stile delle aree di testo 
+ */
+div#page>main>form>textarea{
+	resize: vertical;
+	border: 1px solid #b0b0b0;
+	border-radius: 3px;
+	width: 30%;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+	
+div#page>main>form>textarea:hover {
+	border: 1px solid #555555;
+}
+
+div#page>main>form>textarea:focus{
+	border: 1px solid #555555;
+}
+
+/*
+ * Stile dei label 
+ */
+div#page>main>form>label {
+	width: 20%;
+	color: red;
+	font-size: 18px;
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+/*
+ * Stile dei fieldset 
+ */
+div#page>main>form>fieldset {
+	width: 30%;
+	padding: 0 0;
+	border: 1px solid #b0b0b0;
+	border-radius: 3px;
+	
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+div#page>main>form>fieldset:hover {
+	border: 1px solid #555555;
+}
+
+div#page>main>form>fieldset:active {
+	border: 1px solid #555555;
+}
+
+/*
+ * Stile dei bottoni dentro la form
+ */
+div#page>main>form>button {
+	background-image: linear-gradient( #B90504, #990100	);
+	color: white;
+	border: 1px solid #B90504;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+div#page>main>form>button:hover {
+	border: 1px solid red;
+}
+
+div#page>main>form>button:active {
+	background-image: linear-gradient( #990100, #B90504 );
+	border: 1px solid red;	
+}
+
 /******FINE BODY******/
 
 
