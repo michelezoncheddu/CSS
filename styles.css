@@ -188,7 +188,7 @@ div#page>* {
  * Stile contenitore laterale di colore rosso
  */
 div#page>aside {
-    background-image: linear-gradient(#B90504, #990100)
+    background-image: linear-gradient(#B90504, #990100);
     color: #fff;
     width: 20%;
     min-width: 250px;
