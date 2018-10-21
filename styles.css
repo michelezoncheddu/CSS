@@ -241,6 +241,11 @@ div#page>aside ul>li i {
     font-size: 16px;
     padding-right: 10px;
     vertical-align: text-bottom;
+    transition: padding 500ms;
+}
+
+div#page>aside ul>li:hover i{
+    padding-right: 20px;
 }
 
 /*
@@ -256,18 +261,6 @@ div#page>aside ul>li>a:link, div#page>aside ul>li>a:visited {
 
 div#page>aside ul>li>a:hover {
     color: #fff;
-}
-
-/*
- * Stile testo del collegamento nel menu utente
- */
-div#page>aside ul>li>a>span {
-    margin-left: 0px;
-    transition: margin 500ms;
-}
-
-div#page>aside ul>li>a:hover>span {
-    margin-left: 10px;
 }
 
 /*
