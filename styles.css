@@ -361,6 +361,8 @@ div#page>main>form>input:focus{
 div#page>main>form>select{
 	border: 1px solid #b0b0b0;
 	border-radius: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 div#page>main>form>select:hover{
