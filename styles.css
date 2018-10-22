@@ -584,3 +584,70 @@ body>footer {
     background-color: #F9A825;
 }
 /******FINE MESSAGGI******/
+
+
+/**FORM LOGIN*/
+
+/*
+ * Stile form per il login
+ */
+div#page>aside>form {
+    font-size: 0px;
+    padding: 0px 10px;
+}
+
+/*
+ * Stile etichetta per i campi della form per il login
+ */
+div#page>aside>form>label {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+/*
+ * Stile campi della form per il login
+ */
+div#page>aside>form>input:focus {
+    outline: 0;
+}
+
+div#page>aside>form>input[type=text], div#page>aside>form>input[type=password] {
+    width: 98%;
+    padding: 10px 1%;
+    border: none;
+    border-radius: 3px;
+}
+
+div#page>aside>form>input[type=submit], div#page>aside>form>button {
+    background: #333333;
+    width: calc( 50% - 10px );
+    margin-top: 15px;
+    padding: 10px 0px;
+    color: #E8E8E8;
+    font-weight: bold;
+    border-bottom: none;
+    border-top: 1px solid #222;
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    border-radius: 3px;
+    box-shadow: 0px 2px 0px #222, 0px 3px 0px #333;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+div#page>aside>form>input[type=submit] {
+    margin-right: 10px;
+}
+
+div#page>aside>form>button {
+    margin-left: 10px;
+}
+
+div#page>aside>form>input[type=submit]:hover, div#page>aside>form>button:hover {
+    color: #fff;
+    box-shadow: 0px 3px 0px #333;
+}
