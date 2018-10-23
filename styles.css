@@ -335,7 +335,7 @@ div#page>main>form {
  * Stile dei riquadri di input di testo
  */
 div#page>main>form>input[type=text] {
-	width: 10%;
+	width: 20%;
 	margin: 8px 0;
 	border: 1px solid #b0b0b0;
 	border-radius: 3px;
@@ -356,7 +356,7 @@ div#page>main>form>input[type=text]:focus{
  * Stile dei campi di input password
  */
 div#page>main>form>input[type=password] {
-	width: 10%;
+	width: 20%;
 	margin: 8px 0;
 	border: 1px solid #b0b0b0;
 	border-radius: 3px;
