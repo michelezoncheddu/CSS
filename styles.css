@@ -330,6 +330,25 @@ form {
 	padding-bottom: 8px;
 }
 
+/*
+ * Stile dei riquadri di input generici
+ */
+input {
+	margin: 8px 0;
+	border: 1px solid #b0b0b0;
+	border-radius: 3px;
+	padding-left: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+input:hover {
+	border: 1px solid #555555;
+}
+
+input:focus{
+	border: 1px solid #555555;
+}
 
 /*
  * Stile dei riquadri di input di testo
@@ -417,7 +436,7 @@ textarea:focus{
  * Stile dei label 
  */
 label {
-	padding-left: 10px;
+	padding-left: 5px;
 	padding-right: 5px;
 }
 
