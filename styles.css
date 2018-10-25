@@ -320,7 +320,7 @@ div#page>main>button:active {
 /*
  * Stile della form 
  */
-div#page>main>form {
+form {
 	border: 1px solid #b0b0b0;
 	border-radius: 5px;
 	width: 60%;
@@ -334,7 +334,7 @@ div#page>main>form {
 /*
  * Stile dei riquadri di input di testo
  */
-div#page>main>form>input[type=text] {
+input[type=text] {
 	width: 20%;
 	margin: 8px 0;
 	border: 1px solid #b0b0b0;
@@ -344,18 +344,18 @@ div#page>main>form>input[type=text] {
 	padding-bottom: 3px;
 }
 
-div#page>main>form>input[type=text]:hover {
+input[type=text]:hover {
 	border: 1px solid #555555;
 }
 
-div#page>main>form>input[type=text]:focus{
+input[type=text]:focus{
 	border: 1px solid #555555;
 }
 
 /*
  * Stile dei campi di input password
  */
-div#page>main>form>input[type=password] {
+input[type=password] {
 	width: 20%;
 	margin: 8px 0;
 	border: 1px solid #b0b0b0;
@@ -365,11 +365,11 @@ div#page>main>form>input[type=password] {
 	padding-bottom: 3px;
 }
 
-div#page>main>form>input[type=password]:hover {
+input[type=password]:hover {
 	border: 1px solid #555555;
 }
 
-div#page>main>form>input[type=password]:focus{
+input[type=password]:focus{
 	border: 1px solid #555555;
 }
 
@@ -377,25 +377,25 @@ div#page>main>form>input[type=password]:focus{
 /*
  * Stile dei menù di selezione 
  */
-div#page>main>form>select{
+select{
 	border: 1px solid #b0b0b0;
 	border-radius: 3px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
 
-div#page>main>form>select:hover{
+select:hover{
 	border: 1px solid #555555;
 }
 
-div#page>main>form>select:focus{
+select:focus{
 	border: 1px solid #555555;
 }
 
 /*
  * Stile delle aree di testo 
  */
-div#page>main>form>textarea{
+textarea{
 	resize: vertical;
 	border: 1px solid #b0b0b0;
 	border-radius: 3px;
@@ -405,18 +405,18 @@ div#page>main>form>textarea{
 	padding-bottom: 2px;
 }
 	
-div#page>main>form>textarea:hover {
+textarea:hover {
 	border: 1px solid #555555;
 }
 
-div#page>main>form>textarea:focus{
+textarea:focus{
 	border: 1px solid #555555;
 }
 
 /*
  * Stile dei label 
  */
-div#page>main>form>label {
+label {
 	width: 20%;
 	color: #B90504;
 	font-size: 18px;
@@ -427,7 +427,7 @@ div#page>main>form>label {
 /*
  * Stile dei fieldset 
  */
-div#page>main>form>fieldset {
+fieldset {
 	width: 30%;
 	padding: 0 0;
 	border: 1px solid #b0b0b0;
@@ -438,11 +438,11 @@ div#page>main>form>fieldset {
 	padding-bottom: 2px;
 }
 
-div#page>main>form>fieldset:hover {
+fieldset:hover {
 	border: 1px solid #555555;
 }
 
-div#page>main>form>fieldset:active {
+fieldset:active {
 	border: 1px solid #555555;
 }
 
@@ -450,7 +450,7 @@ div#page>main>form>fieldset:active {
 /*
  * Stile dei bottoni submit della form
  */
-div#page>main>form>input[type=submit]  {
+input[type=submit]  {
 	background-image: linear-gradient( #B90504, #990100 );
 	color: white;
 	border: 1px solid #B90504;
@@ -459,11 +459,11 @@ div#page>main>form>input[type=submit]  {
 }
 
 
-div#page>main>form>input[type=submit]:hover {
+input[type=submit]:hover {
 	border: 1px solid red;
 }
 
-div#page>main>form>input[type=submit]:active {
+input[type=submit]:active {
 	background-image: linear-gradient( #990100, #B90504 );	
 	border: 1px solid red;
 }
@@ -471,7 +471,7 @@ div#page>main>form>input[type=submit]:active {
 /*
  * Stile dei bottoni reset della form
  */
-div#page>main>form>input[type=reset]  {
+input[type=reset]  {
 	background-image: linear-gradient( #B90504, #990100 );
 	color: white;
 	border: 1px solid #B90504;
@@ -479,12 +479,11 @@ div#page>main>form>input[type=reset]  {
 	font-size: 15px;
 }
 
-
-div#page>main>form>input[type=reset]:hover {
+input[type=reset]:hover {
 	border: 1px solid red;
 }
 
-div#page>main>form>input[type=reset]:active {
+input[type=reset]:active {
 	background-image: linear-gradient( #990100, #B90504 );	
 	border: 1px solid red;
 }
@@ -492,7 +491,7 @@ div#page>main>form>input[type=reset]:active {
 /*
  * Stile dei bottoni dentro la form
  */
-div#page>main>form>button {
+button {
 	background-image: linear-gradient( #B90504, #990100 );
 	color: white;
 	border: 1px solid #B90504;
@@ -500,11 +499,11 @@ div#page>main>form>button {
 	font-size: 15px;
 }
 
-div#page>main>form>button:hover {
+button:hover {
 	border: 1px solid red;
 }
 
-div#page>main>form>button:active {
+button:active {
 	background-image: linear-gradient( #990100, #B90504 );
 	border: 1px solid red;	
 }
