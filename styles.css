@@ -324,10 +324,10 @@ form {
 	border: 1px solid #b0b0b0;
 	border-radius: 5px;
 	width: 80%;
-	padding-left: 20px;
-	padding-right: 8px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 /*
@@ -444,14 +444,12 @@ label {
  * Stile dei fieldset 
  */
 fieldset {
-	width: 30%;
 	padding: 0 0;
 	border: 1px solid #b0b0b0;
 	border-radius: 3px;
-	
-	padding-left: 5px;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 fieldset:hover {
